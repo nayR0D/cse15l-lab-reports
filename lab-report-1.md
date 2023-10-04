@@ -10,7 +10,8 @@ When cd is used with a path to a file, it returns an error: Not a directory. Thi
 ![Image](cd_to_file.png)
 
 
-When ls is used with no arguments, it lists all the files in the current directory. This is the intended purpose of ls, all it does is list the files of a directory, and when no directory is specified, it will just print the files in the current directory. Since this is the correct use od the command, there is no error.
+When ls is used with no arguments, it lists all the files in the current directory. This is the intended purpose of ls, all it does is list the files of a directory, and when no directory is specified, it will just print the files in the current directory. Since this is the correct use of the command, there is no error.
+
 ![Image](ls_no_folder.png)
 
 When ls is used with a path to a directory, it lists all the files in the directory specified. ls can also be used to print the files in a directory stated, not just the current directory. Becuase this is the inteded purpose of the command, there is no error.
