@@ -18,6 +18,7 @@ When ls is used with a path to a directory, it lists all the files in the direct
 ![Image](ls_to_folder.png)
 
 When ls is used with a path to a file, it will just print the path to that file. This isn't really an error, but it is not the intended purpose of the command.
+
 ![Image](ls_to_file.png)
 
 
