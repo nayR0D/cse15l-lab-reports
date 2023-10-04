@@ -1,0 +1,5 @@
+cd with no arguments does nothing
+
+cd with a path to a directory, changes the directory you are in to that directory
+
+cd with a path to a file returns an error: Not a directory
