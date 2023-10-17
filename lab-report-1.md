@@ -1,6 +1,6 @@
 # Lab Report 1
 
-When cd is used with no arguments, it does nothing. I got this output because cd is used to change directory to a specified directory. If there is no directory specified it cannot change the current directory. Because nothing wrong happens, no error occurs.
+When cd is used with no arguments, it does nothing. I got this output because cd is used to change directory to a specified directory. If there is no directory specified it cannot change the current directory. Because nothing wrong happens, no error occurs. If the user was not in the home directory, and ran cd, the user's working directory would be changed to the home directory.
 ![Image](cd_no_folder.png)
 
 When cd is used with a path to a directory, it changes the directory you are in to that directory. This is the intended purpose of this command so there is no output logging any potential errors.
@@ -17,16 +17,16 @@ When ls is used with no arguments, it lists all the files in the current directo
 When ls is used with a path to a directory, it lists all the files in the directory specified. ls can also be used to print the files in a directory stated, not just the current directory. Becuase this is the inteded purpose of the command, there is no error.
 ![Image](ls_to_folder.png)
 
-When ls is used with a path to a file, it will just print the path to that file. This isn't really an error, but it is not the intended purpose of the command.
+When ls is used with a path to a file, it will just print the path to that file. If there are other request options with the ls command, it can give more information. Either way, this isn't an error.
 
 ![Image](ls_to_file.png)
 
 
-When cat is used with no arguments, the terminal stalls forever, which seems to be an error. The command has to be stopped with control c for the terminal to be used again. I got this output because cat is supposed to be used with a text file, so when there is no text file specified, it will stall.
+When cat is used with no arguments, the terminal stalls forever, which seems to be an error. If the user were to type something and hit enter while the terminal is stalled, it will simply echo the text again and continue to stall. The command has to be stopped with control c for the terminal to be used again. I got this output because cat is supposed to be used with a text file, so when there is no text file specified, it will stall.
 
 ![Image](cat_no_folder.png)
 
-When cat is used with a path to a directory, it will do nothing and return a message saying the directory specified is a directory. This is because cat is used to print out the text in a textfile, so it cannot be used on a directory. This is not really an error but it is not the intended use of the command.
+When cat is used with a path to a directory, it will do nothing and return a message saying the directory specified is a directory. This is because cat is used to print out the text in any file, so it cannot be used on a directory. This is not really an error but it is not the intended use of the command.
 
 ![Image](cat_to_folder.png)
 
