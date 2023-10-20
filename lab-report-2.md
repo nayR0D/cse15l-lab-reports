@@ -19,4 +19,12 @@
 - The value of listNum changes with every request to add-message, since it must be incremented for the messages to be numbered properly. The value of runningString changes since a new line is added to it and the new message from the add-message request.
 
 ## Part 2
+### Private Key
+![private key](privateKey.png)
+### Public Key
+![public key](publicKey.png)
+### Login
+![login](login.png)
 
+## Part 3
+- I did not know about setting up SSH key access for remote accounts. I did not know you could configure it so that when you type in your username it will automatically log you in. I also learned a little bit about how java servers are setup and how they work.
