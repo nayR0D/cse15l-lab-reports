@@ -10,4 +10,4 @@ int[] input1 = { 3 };
 ArrayExamples.reverseInPlace(input1);
 assertArrayEquals(new int[]{ 3 }, input1);
 ### Symptom
-![image](failed_test.png)
+![image](failed_test(1).png)
