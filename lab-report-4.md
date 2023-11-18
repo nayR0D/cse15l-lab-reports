@@ -2,7 +2,7 @@
 ## Vim
 ### Step 4
 ![step 4](step_4.png)
-Keys Pressed: "*ssh <command + v><enter>*" My ieng6 username (cs15lfa23nd@ieng6.ucsd.edu) was previously copied into my clipboard, so all I needed to do to log in was to ssh then paste my username.
+Keys Pressed: "*ssh <command + v>*<enter>**" My ieng6 username (cs15lfa23nd@ieng6.ucsd.edu) was previously copied into my clipboard, so all I needed to do to log in was to ssh then paste my username.
 
 ### Step 5
 ![step 5](step_5.png)
