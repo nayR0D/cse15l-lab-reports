@@ -27,7 +27,7 @@ After carefully reviewing my loops, I see what the error is. In my loops iterati
   - hamcrest-core-1.3.jar
     - ![hamcrest](hamcrest.png)
   - junit-4.13.2.jar
-    - ![junit](junit.png) \
+    - ![junit](junit.png) 
 - The full command line (or lines) you ran to trigger the bug
   - `bash test.sh` 
 - A description of what to edit to fix the bug
