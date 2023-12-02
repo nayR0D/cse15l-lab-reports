@@ -32,3 +32,6 @@ After carefully reviewing my loops, I see what the error is. In my loops iterati
   - `bash test.sh` 
 - A description of what to edit to fix the bug
   - To fix the bug, you must vim into ListExamples.java and edit that line that increments index1 in the `while(index2 < list2.size())` loop. You must change index1 to index2.
+ 
+## Part 2 - Reflection
+I learned a lot more useful vim commands that I did not know before. I have used vim before, but there are so many useful commands that I learned that save me a lot more time now like the x command. I also learned a lot more about bash scripting which is useful. I learned how to do conditional statements in bash which is useful for creating more robust bash scripts.
