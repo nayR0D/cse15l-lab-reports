@@ -6,7 +6,7 @@ Hi, It seems that when there are two lists with elements in my merge function, t
 2. Hi, A TestTimedOutException usually means that there is an infinite loop somewhere in your code. Be sure to carefully check all your loops and ensure they terminate correctly.
 
 3. ![image](fix.png) \
-After carefully reviewing my loops, I see what the error is. In my loops iterating over list2, I increment the index counter for list1, not list2. therefore the condition, `while(index2 < list2.size())` never ends, resulting in an infinite loop. 
+After carefully reviewing my loops, I see what the error is. In my loops iterating over list2 in ListExamples.java, I increment the index counter for list1, not list2. therefore the condition, `while(index2 < list2.size())` never ends, resulting in an infinite loop. 
 
 4. 
 - The file & directory structure needed \
