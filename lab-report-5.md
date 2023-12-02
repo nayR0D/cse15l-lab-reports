@@ -1,12 +1,12 @@
 # Lab Report 5 - Putting It All Together
 ## Part 1 - Debugging Scenario
 1. ![image](bug.png) \
-Hi, It seems that when there are two lists with elements in my merge function, there is TestTimedOutException. It seems that when one list is empty, and when one list is not, the function works. So it seems that when two lists have elements there is an error somewhere. 
+Student: Hi, It seems that when there are two lists with elements in my merge function, there is TestTimedOutException. It seems that when one list is empty, and when one list is not, the function works. So it seems that when two lists have elements there is an error somewhere. 
 
-2. Hi, A TestTimedOutException usually means that there is an infinite loop somewhere in your code. Be sure to carefully check all your loops and ensure they terminate correctly.
+2. TA: Hi, A TestTimedOutException usually means that there is an infinite loop somewhere in your code. Be sure to carefully check all your loops and ensure they terminate correctly.
 
 3. ![image](fix.png) \
-After carefully reviewing my loops, I see what the error is. In my loops iterating over list2 in ListExamples.java, I increment the index counter for list1, not list2. therefore the condition, `while(index2 < list2.size())` never ends, resulting in an infinite loop. 
+Student: After carefully reviewing my loops, I see what the error is. In my loops iterating over list2 in ListExamples.java, I increment the index counter for list1, not list2. therefore the condition, `while(index2 < list2.size())` never ends, resulting in an infinite loop. 
 
 4. 
 - The file & directory structure needed \
